@@ -1,0 +1,104 @@
+nav ul li.left{
+    float: left;
+    text-decoration: none;
+   
+}
+
+nav ul li.right{
+    float: right;
+    text-decoration: none;
+}
+    
+nav ul{
+    list-style-type: none;
+    margin: 15px;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+    font-family:arial;
+}
+
+nav ul li {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 1.5em;
+    text-decoration: none;
+    list-style-type:none;
+}
+
+.sign{
+    background-color: #0984e3;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.google{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.enter{
+    
+    text-align: center;
+    margin-top: 10px;
+}
+
+input{
+  margin-top: 15px;
+  width: 650px;
+  height: 35px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius:50px;
+  font-size: 16px;
+  background-size: 20px;
+  padding-right: 20px;
+  background-image: url('search.png') no-repeat left;
+  background: url('google-voice.png') no-repeat right;
+  background-size:16px;
+  
+}
+  
+.buttons{
+    text-align: center;
+}
+
+.buttons button{
+    background-color: #ecf0f1 ;
+    border: none;
+    border-radius: 5px;
+    color: #5f6368;
+    padding: 8px 18px;
+    text-decoration: none;
+    margin: 40px 10px;
+    cursor: pointer;
+}
+
+footer ul{
+    background-color: #f2f2f2;
+    margin-top: 200px;
+    left: 0;
+    bottom: 0;
+}
+
+voice{
+    background: url('google-voice.png') no-repeat left;
+    background: url('google_logo.svg') no-repeat right;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    pointer-events: auto;
+    position: absolute;
+    right: 16px;
+    height: 26px;
+    width: 26px;
+    left: 16px;
+}
